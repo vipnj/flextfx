@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" visible="false">
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.core.FlexTextField;
+			import be.nascom.component.FlexSimpleTraceBox;
+			
+			import flash.display.BitmapData;
+			
+			public function grabBitmapData():BitmapData{
+				//var bounds:Rectangle=temp_uic.getBounds(_generated_text_field);
+				//var bmd:BitmapData=new BitmapData(bounds.width,bounds.height,true,0);
+				var bmd:BitmapData=new BitmapData(my_label.width,my_label.height,true,0);
+				bmd.draw(my_label);
+				return bmd;
+			}
+			
+			public function grabBitmapDataOfIndex(index:uint):BitmapData{
+				if(index>=my_label.text.length){
+					throw new Error("TextToBitmapGrabber Error, grabBitmapDataOfIndex out of bounds index error");
+					return null;
+				}
+				//var tf:FlexTextField=my_label.
+				return grabBitmapData();
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<mx:Label id="my_label" text="hello" />
+</mx:Canvas>
