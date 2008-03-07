@@ -2,6 +2,7 @@ package net.sakri.flextfx{
 	
 	import flash.display.DisplayObject;
 	import gs.TweenLite;
+	import net.sakri.flextfx.util.DisplayObjectRegistrationPointHelper;
 
 	public class SplitZoomAndRotate extends SplitZoom{
 		
