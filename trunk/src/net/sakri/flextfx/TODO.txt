@@ -1,0 +1,32 @@
+
+
+TODO:
+
+	*FullTextEffects
+
+
+IDEAS:
+
+	*Continuous Effects : wave, wobble, shake etc.
+
+	*Effects package : smoke, fire, etc.
+	
+	*Fill effects : bubbles
+	
+	*animated filter effects : convolution filter 
+
+	*Gradient fill for text
+	*Stroke ->use glow filter
+	
+	*Particle system, particle effects
+		->batman
+		->exploding text
+		
+	*Tracers, blurs
+		
+USES:
+
+	->header
+	
+	->button
+		->how to pass styles for x_from etc.
