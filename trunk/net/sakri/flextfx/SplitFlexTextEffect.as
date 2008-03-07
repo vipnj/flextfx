@@ -41,8 +41,9 @@ package net.sakri.flextfx{
 
 	/**
 	 * The SplitFlexTextEffect splits a string of text into individually animated characters.
-	 * SplitFlexTextEffect accepts both embedded and non-embedded fonts.  Non embedded fonts
-	 * are rendered as bitmap images, which has the side effect of appearing "pixelated"
+	 * SplitFlexTextEffect accepts both embedded and non-embedded fonts. This component
+	 * detects wether a font is embedded or not automagically.  Non embedded fonts
+	 * are rendered as bitmaps, which has the side effect of appearing "pixelated"
 	 * whenever x or y scale is greater than 1.
 	 * 
 	 * @author Sakri Rosenstrom
@@ -225,10 +226,10 @@ package net.sakri.flextfx{
 			}
 		}
 
-		//REFACTOR THESE TWO... THERE IS REPETITION...
+
 		protected function createEmbeddedSplitCharacters():void{
 			FlexSimpleTraceBox.trace("SplitFlextTextEffect.createEmbeddedSplitCharacters()");
-			FlexSimpleTraceBox.trace("SplitFlextTextEffect.createSplitCharacters()split_clip_registration:"+split_clip_registration.toString());
+			//FlexSimpleTraceBox.trace("SplitFlextTextEffect.createSplitCharacters()split_clip_registration:"+split_clip_registration.toString());
 			var char_bounds:Rectangle;
 			var character:TextField;
 			var tf:TextFormat=_default_text.getTextFormat();
@@ -254,7 +255,7 @@ package net.sakri.flextfx{
 		
 		protected function createBitmapSplitCharacters():void{
 			FlexSimpleTraceBox.trace("SplitFlextTextEffect.createSplitCharacters()");
-			FlexSimpleTraceBox.trace("SplitFlextTextEffect.createSplitCharacters()split_clip_registration:"+split_clip_registration.toString());
+			//FlexSimpleTraceBox.trace("SplitFlextTextEffect.createSplitCharacters()split_clip_registration:"+split_clip_registration.toString());
 			var char_bounds:Rectangle;
 			var character:Bitmap;
 			var bmd:BitmapData;
