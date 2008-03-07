@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flexLibProperties version="1">
 <includeClasses>
-<classEntry path="be.nascom.component.FlexSimpleTraceBox"/>
-<classEntry path="be.nascom.util.HexColorUtil"/>
-<classEntry path="be.nascom.util.MathFunctions"/>
-<classEntry path="gs.TweenLite"/>
-<classEntry path="net.sakri.ITextEffect"/>
-<classEntry path="net.sakri.flextfx.SplitFlexTextEffect"/>
-<classEntry path="net.sakri.flextfx.SplitMove"/>
-<classEntry path="net.sakri.flextfx.SplitMoveZoomAndRotate"/>
-<classEntry path="net.sakri.flextfx.SplitZoom"/>
-<classEntry path="net.sakri.flextfx.SplitZoomAndRotate"/>
 <classEntry path="net.sakri.flextfx.util.DisplayObjectRegistrationPointHelper"/>
+<classEntry path="net.sakri.flextfx.SplitMove"/>
+<classEntry path="be.nascom.util.MathFunctions"/>
+<classEntry path="net.sakri.flextfx.SplitZoom"/>
 </includeClasses>
 <includeResources/>
 <namespaceManifests/>
