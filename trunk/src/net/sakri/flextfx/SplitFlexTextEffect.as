@@ -43,10 +43,10 @@ package net.sakri.flextfx{
 	import flash.text.TextFieldAutoSize;
 	import flash.text.TextFormat;
 	
-	import be.nascom.component.FlexSimpleTraceBox2;
+	import be.nascom.component.FlexSimpleTraceBox;
 	
 	import net.sakri.flextfx.util.DisplayObjectRegistrationPointHelper;
-	import be.nascom.component.FlexSimpleTraceBox2;
+	import be.nascom.component.FlexSimpleTraceBox;
 	import gs.TweenLite;
 	
 	/**
@@ -194,7 +194,7 @@ package net.sakri.flextfx{
 		
 		override protected function createChildren():void{
 			super.createChildren();
-			FlexSimpleTraceBox2.trace("SplitFlexTextEffect.createChildren()");
+			FlexSimpleTraceBox.trace("SplitFlexTextEffect.createChildren()");
 			_default_text=new UITextField();
 			_default_text.autoSize=TextFieldAutoSize.LEFT;
 			addChild(_default_text);
@@ -209,7 +209,7 @@ package net.sakri.flextfx{
 			if(_text_changed){
 				_default_text.text=_text;
 				_text_changed=false;
-				FlexSimpleTraceBox2.trace("SplitFlexTextEffect.commitProperties(), text changed:"+_default_text.text);
+				FlexSimpleTraceBox.trace("SplitFlexTextEffect.commitProperties(), text changed:"+_default_text.text);
 				createSplitCharacters();
 				invalidateDisplayList();
 			}
@@ -228,7 +228,7 @@ package net.sakri.flextfx{
 		}
 		
 		public function start():void{
-			FlexSimpleTraceBox2.trace("SplitFlexTextEffect.start()");
+			FlexSimpleTraceBox.trace("SplitFlexTextEffect.start()");
 			_default_text.visible=false;
 			_characters_holder.visible=true;
 			var tween_params:Object;
@@ -250,7 +250,7 @@ package net.sakri.flextfx{
 			pause();
 			_default_text.visible=true;
 			_characters_holder.visible=false;
-			FlexSimpleTraceBox2.trace("SplitFlexTextEffect.end()");
+			FlexSimpleTraceBox.trace("SplitFlexTextEffect.end()");
 			dispatchEvent(new Event("end"));
 		}
 		
@@ -273,7 +273,7 @@ package net.sakri.flextfx{
 
 
 		protected function createEmbeddedSplitCharacters():void{
-			FlexSimpleTraceBox2.trace("SplitFlextTextEffect.createEmbeddedSplitCharacters()");
+			FlexSimpleTraceBox.trace("SplitFlextTextEffect.createEmbeddedSplitCharacters()");
 			//FlexSimpleTraceBox.trace("SplitFlextTextEffect.createSplitCharacters()split_clip_registration:"+split_clip_registration.toString());
 			var char_bounds:Rectangle;
 			var character:TextField;
@@ -299,7 +299,7 @@ package net.sakri.flextfx{
 		}
 		
 		protected function createBitmapSplitCharacters():void{
-			FlexSimpleTraceBox2.trace("SplitFlextTextEffect.createSplitCharacters()");
+			FlexSimpleTraceBox.trace("SplitFlextTextEffect.createSplitCharacters()");
 			//FlexSimpleTraceBox.trace("SplitFlextTextEffect.createSplitCharacters()split_clip_registration:"+split_clip_registration.toString());
 			var char_bounds:Rectangle;
 			var character:Bitmap;
