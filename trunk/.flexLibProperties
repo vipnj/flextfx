@@ -2,9 +2,8 @@
 <flexLibProperties version="1">
 <includeClasses>
 <classEntry path="net.sakri.flextfx.util.DisplayObjectRegistrationPointHelper"/>
-<classEntry path="net.sakri.flextfx.SplitMove"/>
 <classEntry path="be.nascom.util.MathFunctions"/>
-<classEntry path="net.sakri.flextfx.SplitZoom"/>
+<classEntry path="net.sakri.flextfx.SplitMove"/>
 </includeClasses>
 <includeResources/>
 <namespaceManifests/>
