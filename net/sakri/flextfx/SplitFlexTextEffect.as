@@ -42,7 +42,8 @@ package net.sakri.flextfx{
 	/**
 	 * The SplitFlexTextEffect splits a string of text into individually animated characters.
 	 * SplitFlexTextEffect accepts both embedded and non-embedded fonts.  Non embedded fonts
-	 * are rendered as bitmap images, so the animation may seem jagged during rotations.
+	 * are rendered as bitmap images, which has the side effect of appearing "pixelated"
+	 * whenever x or y scale is greater than 1.
 	 * 
 	 * @author Sakri Rosenstrom
 	 * @email sakri.rosenstrom@gmail.com
@@ -267,8 +268,8 @@ package net.sakri.flextfx{
 				
 				char_bounds=_default_text.getCharBoundaries(i);
 				bmd=new BitmapData(char_bounds.width+extension_hack,char_bounds.height,true,0);
-				bmd.draw(_capture_field,null,null,null,null,true);//not sure if the smoothing makes any discernible difference...
-				character=new Bitmap(bmd);
+				bmd.draw(_capture_field,null,null,null,null,true);
+				character=new Bitmap(bmd,"auto",true);
 
 				character_holder=split_clip_registration.nestDisplayObjectToSprite(character,char_bounds.width+extension_hack,char_bounds.height);
 				character_holder.x+=char_bounds.x-x_offset;
