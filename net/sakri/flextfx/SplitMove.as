@@ -1,9 +1,14 @@
 package net.sakri.flextfx{
 	
 	import flash.display.DisplayObject;
-	import gs.TweenLite;
 	
-	public class SplitMoveZoomAndRotate extends SplitZoomAndRotate{
+	import gs.TweenLite;
+
+	public class SplitMove extends SplitFlexTextEffect{
+		
+		public function SplitMove(){
+			super();
+		}
 		
 		[Inspectable (enumeration="Fixed,Relative")]
 		public var move_point:String="Fixed";
@@ -12,9 +17,6 @@ package net.sakri.flextfx{
 		public var y_from:Number=-50;
 		
 		override protected function tweenCharacter(char:DisplayObject,index:uint,tween_params:Object):void{
-			tween_params.scaleX=scale_from;
-			tween_params.scaleY=scale_from;
-			tween_params.rotation=rotate_from;
 			if(move_point=="Fixed"){
 				tween_params.x=x_from;
 				tween_params.y=y_from;			
