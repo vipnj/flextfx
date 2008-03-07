@@ -48,7 +48,7 @@ package net.sakri.flextfx{
 	 * @email sakri.rosenstrom@gmail.com
 	 * 	 
 	 */
-		
+	 
 	public class SplitFlexTextEffect extends Canvas{
 
 	    /**
@@ -61,7 +61,7 @@ package net.sakri.flextfx{
 	        clipContent=false;
 	    }
        
-
+		//a comment
 		private var _text_changed:Boolean=false;
 		private var _text:String;
 		public function set text(s:String):void{
