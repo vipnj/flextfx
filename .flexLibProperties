@@ -2,6 +2,13 @@
 <flexLibProperties version="1">
 <includeClasses>
 <classEntry path="be.nascom.component.FlexSimpleTraceBox"/>
+<classEntry path="be.nascom.flash.graphics.AbstractAnimationTracer"/>
+<classEntry path="be.nascom.flash.graphics.BitmapBlurTracer"/>
+<classEntry path="be.nascom.flash.graphics.BitmapTracer"/>
+<classEntry path="be.nascom.flex.components.AbstractFlexAnimationTracer"/>
+<classEntry path="be.nascom.flex.components.FlexBitmapBlurTracer"/>
+<classEntry path="be.nascom.flex.components.FlexBitmapTracer"/>
+<classEntry path="be.nascom.flex.components.FlexSimpleTraceBox"/>
 <classEntry path="be.nascom.graphics.AbstractAnimationTracer"/>
 <classEntry path="be.nascom.graphics.AbstractFlexAnimationTracer"/>
 <classEntry path="be.nascom.graphics.BitmapBlurTracer"/>
