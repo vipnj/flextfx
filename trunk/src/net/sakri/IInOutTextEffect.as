@@ -8,6 +8,8 @@ package net.sakri{
 		
 		function stop():void
 		
+		function play(times:int=-1):void
+		
 		function set auto_play(b:Boolean):void
 		
 		function get auto_play():Boolean
