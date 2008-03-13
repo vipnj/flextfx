@@ -9,12 +9,6 @@
 <classEntry path="be.nascom.flex.components.FlexBitmapBlurTracer"/>
 <classEntry path="be.nascom.flex.components.FlexBitmapTracer"/>
 <classEntry path="be.nascom.flex.components.FlexSimpleTraceBox"/>
-<classEntry path="be.nascom.graphics.AbstractAnimationTracer"/>
-<classEntry path="be.nascom.graphics.AbstractFlexAnimationTracer"/>
-<classEntry path="be.nascom.graphics.BitmapBlurTracer"/>
-<classEntry path="be.nascom.graphics.BitmapTracer"/>
-<classEntry path="be.nascom.graphics.FlexBitmapBlurTracer"/>
-<classEntry path="be.nascom.graphics.FlexBitmapTracer"/>
 <classEntry path="gs.TweenLite"/>
 <classEntry path="net.sakri.IInOutTextEffect"/>
 <classEntry path="net.sakri.flextfx.SplitFlexTextEffect"/>
