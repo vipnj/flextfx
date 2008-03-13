@@ -1,5 +1,5 @@
 package be.nascom.flash.graphics{
-	import be.nascom.component.FlexSimpleTraceBox;
+	import be.nascom.flex.components.FlexSimpleTraceBox;
 	
 	import flash.display.Bitmap;
 	import flash.display.BitmapData;

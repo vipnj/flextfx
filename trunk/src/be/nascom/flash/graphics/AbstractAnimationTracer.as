@@ -4,7 +4,7 @@ package be.nascom.flash.graphics{
 	import flash.display.Sprite;
 	import flash.events.Event;
 	
-	import be.nascom.component.FlexSimpleTraceBox;
+	import be.nascom.flex.components.FlexSimpleTraceBox;
 	
 	public class AbstractAnimationTracer extends Sprite{
 		

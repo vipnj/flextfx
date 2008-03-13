@@ -7,7 +7,7 @@ package be.nascom.flash.graphics{
 	import flash.geom.Point;
 	import flash.geom.Rectangle;
 	
-	import be.nascom.component.FlexSimpleTraceBox;
+	import be.nascom.flex.components.FlexSimpleTraceBox;
 	
 	public class BitmapBlurTracer extends AbstractAnimationTracer{
 		
