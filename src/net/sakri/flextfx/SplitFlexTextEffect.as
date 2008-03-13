@@ -23,31 +23,28 @@ SOFTWARE.
 
 package net.sakri.flextfx{
 	
-	import mx.containers.Canvas;
-	import mx.styles.CSSStyleDeclaration;
-	import mx.styles.StyleManager;
-
-	import mx.core.Application;
-	import mx.core.UIComponent;
-	import mx.effects.easing.*;
-	import mx.core.UITextField;
-
-	import flash.events.Event;
-	import flash.display.DisplayObject;
-	import flash.display.Sprite;
+	import be.nascom.component.FlexSimpleTraceBox;
+	
 	import flash.display.Bitmap;
 	import flash.display.BitmapData;
+	import flash.display.DisplayObject;
+	import flash.display.Sprite;
+	import flash.events.Event;
 	import flash.geom.Matrix;
 	import flash.geom.Rectangle;
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
 	import flash.text.TextFormat;
 	
-	import be.nascom.component.FlexSimpleTraceBox;
+	import gs.TweenLite;
+	
+	import mx.containers.Canvas;
+	import mx.core.Application;
+	import mx.core.UIComponent;
+	import mx.core.UITextField;
+	import mx.effects.easing.*;
 	
 	import net.sakri.flextfx.util.DisplayObjectRegistrationPointHelper;
-	import be.nascom.component.FlexSimpleTraceBox;
-	import gs.TweenLite;
 	
 	/**
 	 * Fired when the text effect animation starts
@@ -271,6 +268,11 @@ package net.sakri.flextfx{
 			}
 		}
 
+		override protected function updateDisplayList(unscaled_width:Number, unscaled_height:Number):void{
+			FlexSimpleTraceBox.trace("SplitFlextTextEffect.updateDisplayList()");
+			_characters_holder.x=_default_text.x=unscaled_width/2-_default_text.width/2;
+			_characters_holder.y=_default_text.y=unscaled_height/2-_default_text.height/2;			
+		}
 
 		protected function createEmbeddedSplitCharacters():void{
 			FlexSimpleTraceBox.trace("SplitFlextTextEffect.createEmbeddedSplitCharacters()");
