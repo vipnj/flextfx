@@ -8,7 +8,7 @@ package net.sakri{
 		
 		function stop():void
 		
-		function play(times:int=-1):void
+		function playTextEffect(times:int=-1):void
 		
 		function set auto_play(b:Boolean):void
 		

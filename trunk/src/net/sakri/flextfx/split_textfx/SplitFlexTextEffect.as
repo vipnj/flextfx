@@ -44,7 +44,7 @@ package net.sakri.flextfx.split_textfx{
 	import mx.core.UITextField;
 	import mx.effects.easing.*;
 	
-	import net.sakri.flextfx.util.DisplayObjectRegistrationPointHelper;
+	import net.sakri.flextfx.split_textfx.util.DisplayObjectRegistrationPointHelper;
 	
 	/**
 	 * Fired when the text effect animation starts

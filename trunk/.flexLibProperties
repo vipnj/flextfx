@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flexLibProperties version="1">
 <includeClasses>
-<classEntry path="be.nascom.flash.graphics.BitmapTracer"/>
-<classEntry path="net.sakri.flextfx.split_textfx.util.DisplayObjectRegistrationPointHelper"/>
-<classEntry path="net.sakri.flextfx.split_textfx.SplitFlexTextEffect"/>
-<classEntry path="net.sakri.flextfx.split_textfx.SplitZoom"/>
-<classEntry path="be.nascom.flex.components.FlexBitmapTracer"/>
-<classEntry path="be.nascom.flex.components.AbstractFlexAnimationTracer"/>
-<classEntry path="be.nascom.flex.components.FlexBitmapBlurTracer"/>
-<classEntry path="net.sakri.flextfx.SplitZoom"/>
-<classEntry path="net.sakri.IInOutTextEffect"/>
-<classEntry path="net.sakri.flextfx.split_textfx.SplitMove"/>
-<classEntry path="net.sakri.flextfx.util.DisplayObjectRegistrationPointHelper"/>
 <classEntry path="be.nascom.flash.graphics.AbstractAnimationTracer"/>
 <classEntry path="be.nascom.flash.graphics.BitmapBlurTracer"/>
+<classEntry path="be.nascom.flash.graphics.BitmapTracer"/>
+<classEntry path="be.nascom.flex.components.AbstractFlexAnimationTracer"/>
+<classEntry path="be.nascom.flex.components.FlexBitmapBlurTracer"/>
+<classEntry path="be.nascom.flex.components.FlexBitmapTracer"/>
 <classEntry path="be.nascom.flex.components.FlexSimpleTraceBox"/>
+<classEntry path="be.nascom.util.HexColorUtil"/>
+<classEntry path="be.nascom.util.MathFunctions"/>
 <classEntry path="gs.TweenLite"/>
-<classEntry path="net.sakri.flextfx.SplitZoomAndRotate"/>
+<classEntry path="net.sakri.IInOutTextEffect"/>
+<classEntry path="net.sakri.flextfx.TextEffect"/>
+<classEntry path="net.sakri.flextfx.split_textfx.SplitFlexTextEffect"/>
+<classEntry path="net.sakri.flextfx.split_textfx.SplitMove"/>
 <classEntry path="net.sakri.flextfx.split_textfx.SplitMoveZoomAndRotate"/>
-<classEntry path="net.sakri.flextfx.SplitMoveZoomAndRotate"/>
-<classEntry path="net.sakri.flextfx.SplitMove"/>
+<classEntry path="net.sakri.flextfx.split_textfx.SplitZoom"/>
 <classEntry path="net.sakri.flextfx.split_textfx.SplitZoomAndRotate"/>
+<classEntry path="net.sakri.flextfx.split_textfx.util.DisplayObjectRegistrationPointHelper"/>
 </includeClasses>
 <includeResources/>
 <namespaceManifests/>
