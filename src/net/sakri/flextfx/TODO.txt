@@ -21,8 +21,7 @@ IDEAS:
 	*Particle system, particle effects
 		->batman
 		->exploding text
-		
-	*Tracers, blurs
+
 		
 USES:
 
