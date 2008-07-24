@@ -1,10 +1,10 @@
-package net.sakri.flextfx.split_textfx{
+package net.sakri.flextfx.split_fx{
 	
 	import flash.display.DisplayObject;
 	
 	import gs.TweenLite;
 
-	public class SplitMove extends SplitFlexTextEffect{
+	public class SplitMove extends SplitEffectTextField{
 		
 		public function SplitMove(){
 			super();
@@ -22,7 +22,7 @@ package net.sakri.flextfx.split_textfx{
 		*
 		* @param param1 Individual character, either a textfield (for embedded fonts), or a bitmap for non-embedded fonts.
 		 * Note that unless character creation scripts are overridden, both flavours are nested inside sprites 
-		 * (see <code>net.sakri.flextfx.util.DisplayObjectRegistrationPointHelper<code>)
+		 * (see <code>net.sakri.flext_fx.util.DisplayObjectRegistrationPointHelper<code>)
 		* @param param2 The charAt index of the passed character
 		* @param param3 template parameters, common parameters passed to all subclasses of <code>SplitFlexTextEffect.</code>
 		 * To customize functionality, override character creation scripts.

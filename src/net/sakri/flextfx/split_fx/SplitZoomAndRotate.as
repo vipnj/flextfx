@@ -1,8 +1,8 @@
-package net.sakri.flextfx.split_textfx{
+package net.sakri.flextfx.split_fx{
 	
 	import flash.display.DisplayObject;
 	import gs.TweenLite;
-	import net.sakri.flextfx.split_textfx.util.DisplayObjectRegistrationPointHelper;
+	import net.sakri.flextfx.split_fx.util.DisplayObjectRegistrationPointHelper;
 
 	public class SplitZoomAndRotate extends SplitZoom{
 		
