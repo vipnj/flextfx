@@ -1,4 +1,4 @@
-package net.sakri.flextfx.split_textfx{
+package net.sakri.flextfx.split_fx{
 	
 	import flash.display.DisplayObject;
 	import gs.TweenLite;

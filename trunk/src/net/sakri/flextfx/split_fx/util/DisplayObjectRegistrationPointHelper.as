@@ -1,4 +1,5 @@
-package net.sakri.flextfx.split_textfx.util{
+package net.sakri.flextfx.split_fx.util{
+	
 	import flash.display.DisplayObject;
 	import flash.display.Sprite;
 

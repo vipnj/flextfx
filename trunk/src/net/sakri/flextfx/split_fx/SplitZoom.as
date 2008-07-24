@@ -1,8 +1,8 @@
-package net.sakri.flextfx.split_textfx{
+package net.sakri.flextfx.split_fx{
 	
 	import flash.display.DisplayObject;
 	
-	public class SplitZoom extends SplitFlexTextEffect{
+	public class SplitZoom extends SplitEffectTextField{
 		
 		import gs.TweenLite;
 		
